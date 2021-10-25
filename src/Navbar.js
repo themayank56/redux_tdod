@@ -10,9 +10,7 @@ function Home() {
                 <NavLink className="navlink " to="createPost" exact>
                   <button type="button" className="btn btn-outline-success">Create Post</button>
                 </NavLink>
-              </div>  
-            
-            
+              </div>    
         </div>
     )
 }
