@@ -7,7 +7,6 @@ import Navbar from './Navbar';
 import CreatePost from './Acomponent/CreatePost';
 import Todo from './Acomponent/Todo';
 
-
 export default function App() {
   return (
     <>
