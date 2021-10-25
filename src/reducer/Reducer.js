@@ -23,7 +23,6 @@ const itemreducer = (state=initialstate, action) => {
     }
 }
 
-
   //create post page
   const inistate = {
       post_item:[
