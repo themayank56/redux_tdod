@@ -18,7 +18,6 @@ export const createPost = (data) => ({
 });
 
 //list item page
-
 export const mayank = (data) =>{
     return{
         type:"ADD",
