@@ -70,8 +70,8 @@ const CreatePost = () => {
                                         /> 
                                         </div>
                                         <div className="col-xl-7 col=md-6 col-sm-12 item">
-                                              <h1>{elem.title}</h1>
-                                              <p className="card-text">{elem.body}</p>  
+                                            <h1>{elem.title}</h1>
+                                            <p className="card-text">{elem.body}</p>  
                                         </div>
                                         <div className="col-xl-2 col=md-6 col-sm-12 delete_item2">
                                            <i onClick={() => dispatch(deletemayank(id))} className="fas fa-trash-alt"></i> 
