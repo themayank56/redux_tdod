@@ -1,21 +1,34 @@
-export const addButton1 = (data) => {
+export const addbutton = (value) => {
     return{
-        type: "ADD_BUTTON1",
-        data: data
-    }
-};
-
-export const deletebutton1 = (id) => {
-    return{
-        type: "DELETE_BUTTON1",
-        id: id
+        type: "ADD_BUTTON",
+        value:value
     }
 }
-export  const deleteall = (deleteall) => {
+export const deletebutton = (value) => {
     return{
-        type: "DELETE_ALL",
-        deleteall: deleteall
+        type: "DELETE_BUTTON",
+        value:value
+    }
+}
 
+  // create a post
+export const createPost = (data) => ({
+    type: "CREATE_POST",
+    data: data,
+});
+
+//list item page
+
+export const mayank = (data) =>{
+    return{
+        type:"ADD",
+        data:data
+    }
+}
+export const deletemayank = (data) =>{
+    return{
+        type:"DELETE",
+        data:data
     }
 }
 

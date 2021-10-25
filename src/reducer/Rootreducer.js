@@ -1,7 +1,11 @@
-import {todoreducer1} from './Reducer';
+import itemreducer from "./Reducer";
+import {mayankreducer} from "./Reducer";
 import {combineReducers} from 'redux';
 
 const Rootreducer = combineReducers({
-     login1:todoreducer1
+    todo1:itemreducer,
+    post2:mayankreducer
 })
+
 export default Rootreducer;
+

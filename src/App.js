@@ -4,9 +4,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import store from './store/Store';
 import {Provider} from  "react-redux";
 import Navbar from './Navbar';
-import A1reacttodo from './Acomponent/A1reacttodo';
-import A2reduxtodo from './Acomponent/A2reduxtodo';
-import A2value from './Acomponent/A2value';
+import CreatePost from './Acomponent/CreatePost';
+import Todo from './Acomponent/Todo';
+
 
 export default function App() {
   return (
@@ -16,10 +16,8 @@ export default function App() {
       <Navbar />
       <hr />
         <Switch>
-          <Route exact path="/" component={A1reacttodo} />
-          <Route exact path="/reduxtodo" component={A2reduxtodo} />
-          <Route exact path="/a2value" component={A2value} />
-
+          <Route exact path="/todo" component={Todo} />
+          <Route exact path="/createpost" component={CreatePost} />
         </Switch>
       </Router>
       </Provider>
